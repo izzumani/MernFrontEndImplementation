@@ -10,8 +10,6 @@ import {
   deletePost,
 } from '../services/posts.js'
 import { Post } from '../db/models/post.js'
-const TEST_TIMEOUT = 60000
-
 describe('creating posts', () => {
   test('with all parameters should succeed', async () => {
     const post = {

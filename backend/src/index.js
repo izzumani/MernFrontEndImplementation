@@ -8,6 +8,6 @@ try {
   const PORT = process.env.PORT
   app.listen(PORT)
   console.info(`express server running on http://localhost:${PORT}`)
-} catch (error) {
+} catch (err) {
   console.error('error connecting to database:', err)
 }
